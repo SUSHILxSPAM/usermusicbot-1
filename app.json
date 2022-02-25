@@ -1,7 +1,9 @@
 {
-    "name": "userbotmusic",
+    "name": "cobrabotmusic",
+    
+
     "description": "A Telegram Userbot to play Songs in Voice Chat",
-    "logo": "https://telegra.ph/file/8636a5d06bcadcf6a6eff.jpg",
+    "logo": "https://te.legra.ph/file/95e465d6c790e01163ddc.jpg",
     "keywords": [
         "Telegram",
         "VCBot",
@@ -23,7 +25,7 @@
         },
         "HNDLR": {
             "description": "Handler | Default (!)",
-            "value": "!",
+            "value": "+",
             "required": false 
         },
         "GROUP_MODE": {
