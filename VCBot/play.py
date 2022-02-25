@@ -183,6 +183,6 @@ async def stream(client, m: Message):
                   stream_type=StreamType().pulse_stream,
                )
                add_to_queue(chat_id, "Radio 📻", livelink, link, "Audio", 0)
-               await huehue.edit(f"Started Playing **[Radio 📻]({link})** in `{chat_id}`", disable_web_page_preview=True)
+               await huehue.edit(f"Started Cobra Playing **[Radio 📻]({link})** in `{chat_id}`", disable_web_page_preview=True)
             except Exception as ep:
                await huehue.edit(f"`{ep}`")
